@@ -1,0 +1,54 @@
+
+.recharts-responsive-container{
+    height: 288px !important;
+}
+.status{
+    background: white;
+    box-shadow: 0 11px 24px 11px rgb(0 0 0 / 5%);
+border-radius: 4px;
+border: 1px solid var(--border-color);
+border-radius: 3px;
+}
+.box_width{
+    width: 640px;
+    padding: 24px !important;
+}
+#tradingview_e49ef-wrapper{
+    width: 300px !important;
+    height: 400px !important;
+}
+#tradingview_f8015{
+    width: 60% !important;
+    height: 60% !important;
+}
+.trading{
+    height: 335px !important;
+}
+iframe{
+    width: 60% !important;
+    height: 65% !important;
+}
+@media screen and (max-width: 992px) {
+    .box_width{
+        width: 398px !important;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .box_width{
+        width: 100% !important;
+    }
+    .box_width{
+        padding: 0px !important;
+    }
+    .mobile_graph{
+        height: 270px !important;
+    }
+    iframe{
+        width: 35% !important;
+        height: 60% !important;
+    }
+    #tradingview_f8015{
+        width: 300px !important;
+    }
+}

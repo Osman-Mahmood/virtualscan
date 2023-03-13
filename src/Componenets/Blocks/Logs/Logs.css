@@ -1,0 +1,9 @@
+.log_wid{
+    width: 100px !important;
+}
+
+@media screen and (max-width: 640px) {
+    .mobile_logs{
+        display: none !important;
+    }
+}

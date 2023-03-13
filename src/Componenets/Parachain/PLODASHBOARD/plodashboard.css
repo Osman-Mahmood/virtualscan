@@ -1,0 +1,31 @@
+.number{
+    font-size: 26px;
+    font-weight: 600;
+    color: #090979;
+    margin-top: 10px;
+}
+
+.relay{
+    box-sizing: border-box;
+    padding: 2px;
+    height: 21px;
+}
+.plo_box{
+    box-sizing: border-box;
+    background: white;
+    box-shadow: 0 11px 24px 11px rgb(0 0 0 / 5%);
+    border-radius: 4px;
+    border: 1px solid var(--border-color);
+    padding: 100px;
+}
+.bor{
+    border-bottom: 0px !important;
+}
+@media screen and (max-width: 640px) {
+    .plo_res{
+        margin-left: 11px !important;
+    }
+    .number{
+        margin-top: 2px !important;
+    }
+}

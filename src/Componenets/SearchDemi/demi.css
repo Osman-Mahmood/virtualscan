@@ -1,0 +1,14 @@
+.view_box{
+    
+    box-sizing: border-box;
+    background: white;
+    box-shadow: 0 11px 24px 11px rgb(0 0 0 / 5%);
+    border-radius: 4px;
+    border: 1px solid var(--border-color);
+    padding: 15px;
+}
+.view_bor{
+    margin-top: 10px;
+    border-bottom: 1px solid #e7eaf3;
+    padding: 6px;
+}

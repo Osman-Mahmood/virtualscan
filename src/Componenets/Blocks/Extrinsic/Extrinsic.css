@@ -1,0 +1,117 @@
+.extri_box{
+    box-sizing: border-box;
+    background: white;
+    box-shadow: 0 11px 24px 11px rgb(0 0 0 / 5%);
+    border-radius: 4px;
+    border: 1px solid var(--border-color);
+    padding: 48px;
+}
+.react-datepicker-wrapper {
+    /* display: inline-block; */
+    padding: 0;
+    border: 0;
+    width: 100% !important;
+}
+.react-datepicker__input-container input{
+    width: 150px !important;
+    height: 38px !important;
+    /* border-color: #B3B3B3 !important;
+    outline: none !important; */
+    background-color: hsl(0, 0%, 100%);
+    border-color: hsl(0, 0%, 80%);
+    border-radius: 4px;
+    border-style: solid;
+    border-width: 1px;
+    box-sizing: border-box;
+    margin-left: 50px;
+}
+/* .react-datepicker-popper{
+    transform: translate3d(243px, 370.333px, 0px) !important;
+
+
+} */
+/* .react-datepicker__triangle{
+    position: absolute;
+    left: 0px;
+    transform: translate3d(227.3333px, 0px, 0px) !important;
+} */
+.input_filter{
+  width: 169px;
+  margin-left: 10px;
+  border-color: hsl(0, 0%, 80%);
+  border-style: solid;
+  border-width: 1px;
+  box-sizing: border-box;
+  border-radius: 4px;
+  height: 41px;
+}
+.btn-danger{
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgb(89 19 130) 54%, rgba(9,9,121,1) 81%) !important;
+    outline: none !important;
+    box-shadow: none !important;
+    border: none !important;
+    font-size: 20px;
+    width: 105px;
+}
+.btn-danger:hover{
+    background: white !important;
+    color: black;
+    
+}
+.fill{
+    color: red !important;
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+  }
+  
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+  
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+  }
+  
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+  }
+  .extrinsic_font th{
+    font-size: 14px !important;
+    font-weight: 700;
+  }
+  .extrinsic_btn{
+ list-style: none !important;
+ outline: none !important;
+ border: 0px !important;
+  }
+  .list_new a{
+    font-size: 17px;
+  }
+  .new_box{
+    background: var(--white);
+    box-shadow: 0 11px 24px 11px rgb(0 0 0 / 5%);
+    border-radius: 4px;
+    border: 1px solid var(--border-color);
+    /* padding: 10px; */
+    /* overflow-y: hidden; */
+    /* height: 400px; */
+    /* width: 540px; */
+    /* margin: 10px; */
+    margin: 10px;
+    /* overflow-x: hidden; */
+  }
+@media screen and (max-width: 640px) {
+    .mobile_filter{
+        display: none !important;
+    }
+}

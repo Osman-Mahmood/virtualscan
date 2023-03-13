@@ -1,0 +1,28 @@
+.account_box{
+    box-sizing: border-box;
+    background: white;
+    box-shadow: 0 11px 24px 11px rgb(0 0 0 / 5%);
+    border-radius: 4px;
+    border: 1px solid var(--border-color);
+    padding: 10px;
+}
+.account_wid{
+    width: 83px !important;
+    padding: 1px;
+}
+@media screen and (max-width: 640px) {
+    .account_box{
+        /* display: block !important; */
+    }
+    .res_account{
+        display: flex !important;
+        justify-content: space-between;
+        /* align-items: center; */
+        /* text-align: center; */
+    }
+    .mobile_role{
+        display: block !important;
+        flex-direction: column !important;
+        /* width: 100%; */
+    }
+}

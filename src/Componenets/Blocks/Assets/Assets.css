@@ -1,0 +1,25 @@
+.split_line::before{
+    border-radius: 20px;
+    /* border-top: 4px solid #8d1517; */
+    content: "";
+    display: inherit;
+    /* margin: 27px auto; */
+    width: 1px;
+    background-color: rgb(172, 151, 238);
+}
+.type_wid{
+    width: 116px !important;
+}
+
+@media screen and (max-width: 640px) {
+    .asstes_mobile{
+        display: inline-block !important;
+    }
+    .split_line::before{
+        display: none !important;
+    }
+    .assets_num{
+        width: 100%;
+        padding: 0 !important;
+    }
+}

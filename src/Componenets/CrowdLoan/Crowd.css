@@ -1,0 +1,13 @@
+.crowd_input{
+    width: 100px;
+}
+.select_btn_active {
+    border-bottom: 1px solid blueviolet;
+    color: blueviolet;
+}
+
+@media screen and (max-width: 640px) {
+    .crowd_mob{
+        display: none !important;
+    }
+}
